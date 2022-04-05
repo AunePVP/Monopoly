@@ -19,7 +19,7 @@ $cookie_fehler = "fehler";
 	<meta name="viewport" content="initial-scale=1.0">
  <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://raw.githubusercontent.com/AunePVP/Fonts/main/standart.css">
+	<link rel="stylesheet" href="https://github.com/AunePVP/Fonts/raw/main/standart.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style>
 <?php
