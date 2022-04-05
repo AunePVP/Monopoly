@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&amp;display=swap');
+html, body {
+	min-height: 100% !important;
+	height: 100%;
+	margin: 0px;
+	top: 0px;
+}
+#teamr {
+	text-align: center;
+	background: rgb(255,0,0);
+	background: linear-gradient(180deg, rgba(255,0,0,0.9) 0%, rgba(255,255,255,0) 65%);
+	width: 100%;
+	height: 100%;
+	left: 0px;
+}
+#teamb {
+        text-align: center;
+        background: rgb(0,0,255);
+        background: linear-gradient(180deg, rgba(25,25,255,0.9) 0%, rgba(255,255,255,0) 50%);
+        width: 100%;
+        height: 100%;
+        left: 0px;
+}
+#teamdb {
+        text-align: center;
+        background: rgb(0,0,255);
+        background: linear-gradient(180deg, rgba(0,0,180,1) 0%, rgba(255,255,255,0) 65%);
+        width: 100%;
+        height: 100%;
+        left: 0px;
+}
+#teamg {
+        text-align: center;
+        background: rgb(0,255,0);
+        background: linear-gradient(180deg, rgba(0,255,0,0.9) 0%, rgba(255,255,255,0) 50%);
+        width: 100%;
+        height: 100%;
+        left: 0px;
+}
+#teamy {
+        text-align: center;
+        background: rgb(255,255,0);
+        background: linear-gradient(180deg, rgba(255,255,0,1) 0%, rgba(255,255,255,0) 50%);
+        width: 100%;
+        height: 100%;
+        left: 0px;
+}
+#teamblack {
+        text-align: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%);
+        width: 100%;
+        height: 100%;
+        left: 0px;
+}
+#teamw {
+        text-align: center;
+        background: rgb(230,230,230);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%);
+        width: 100%;
+        height: 100%;
+        left: 0px;
+}
+#teamdg {
+        text-align: center;
+        background: rgb(230,230,230);
+        background: linear-gradient(180deg, rgba(0,100,0,1) 0%, rgba(255,255,255,0) 65%);
+        width: 100%;
+        height: 100%;
+        left: 0px;
+}
+#card {
+	position: fixed;
+	border-radius: 6px;
+	background: #fafafa;
+	width: 94%;
+	margin-left: 3%;
+	background-color: black;
+	color: white;
+}
+h1 {
+	color: white;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Montserrat', serif;
+	font-size: 34px;
+	letter-spacing: 3px;
+	padding: 5%;
+}
+h2 {
+        color: black;
+        text-align: center;
+        margin: 0px;
+        font-family: 'Montserrat', serif;
+        font-size: 34px;
+        letter-spacing: 3px;
+        padding: 5%;
+}
+
+p {
+	position: relative;
+	text-align: center;
+	font-size: 46px;
+}
+
+#card {
+    animation-name            : displaceContent;
+    animation-duration        : 2s;
+    animation-delay           : 1s;
+    animation-iteration-count : 1;
+    animation-fill-mode       : forwards;
+}
+@keyframes displaceContent {
+    from { transform : translateY(0em) }
+    to   { transform : translateY(24em) } /* slide down to make room for advertisements */
+}
+@keyframes displaceConten {
+    from { transform : translateX(0) }
+    17%  { transform : translateX(0%) }
+    20%  { transform : translateX(-20%) }
+    37%  { transform : translateX(-20%) }
+    40%  { transform : translateX(-40%) }
+    57%  { transform : translateX(-40%) }
+    60%  { transform : translateX(-60%) }
+    77%  { transform : translateX(-60%) }
+    80%  { transform : translateX(-80%) }
+    97%  { transform : translateX(-80%) }
+    to   { transform : translateX(0%) }
+}

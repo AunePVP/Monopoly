@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+@font-face {
+    font-family: 'monopolyinline';
+    src: url('https://github.com/AunePVP/Fonts/raw/main/monopoly_inline-webfont.woff2') format('woff2'),
+         url('https://github.com/AunePVP/Fonts/raw/main/monopoly_inline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  background: #eceff1;
+  -ms-user-select: None; 
+ -moz-user-select: None; 
+ -webkit-user-select: None; 
+        user-select: None;
+}
+h1{
+	text-align: center;
+        font-family: 'Montserrat', serif;
+        letter-spacing: 2px;
+        margin: 0px;
+} 
+
+#Farbe {
+padding: 22px;
+width: 15px;
+    margin-right: -40px;
+}
+p {
+  margin: 2px 0;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.card {
+  width: 340px;
+  max-height: 460px; 
+  border: 1px solid #222;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin: 10px;
+  box-shadow: 0 0 8px rgba(43,47,62,.1);
+  transition: 1s all ease;
+}
+
+.property {
+  border: 2px solid #222;
+  text-align: center;
+  padding: 5px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', serif;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  transition: 1s all ease;
+}
+.green { background: #128500; }
+.blue { background: #373d90; }
+.orange { background: #e38431; }
+.lightblue { background: #c1dced; }
+.purple { background: #88206e; }
+.darkblue { background: #317cd5; }
+.pink { background: #fa3389; } 
+.red { background: #c7000a; }
+.yellow { background: #ffd900; }
+.grey {background: #afafaf;}
+.eyebrow {
+  display: block;
+  font-size: 14px;
+  letter-spacing: 4px;
+  margin-bottom: 5px;
+}
+
+::-webkit-details-marker {
+  display: none;
+}
+
+.rent {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.priceTable {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+}
+
+.priceTable .qty,
+.priceTable .price { 
+  width: 50%;
+}
+.priceTable .qtyg { 
+  width: 63%;
+}
+.priceTable .priceg { 
+  width: 37%;
+}
+
+.priceTable .qty {
+  text-transform: capitalize;
+  text-align: left;
+}
+.priceTable .qtyg {
+  text-transform: none;
+  text-align: left;
+}
+
+.priceTable .price {
+  text-align: right;
+}
+.priceTable .priceg {
+  text-align: right;
+}
+
+.hotel {
+  margin-top: 5px;
+}
+
+.disclaimer {
+  font-size: 10px;
+  margin: 10px 0;
+}
+#Farbe h1{
+	border-style: hidden;
+	width: 100%;
+	margin: -8px;
+}
+#check {
+  font-size: 10px;
+  padding: 150px;
+}
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3e3e3e;
+  box-shadow: 0 4px 5px 1px rgba(0, 0, 0, .2);
+  padding: 8px;
+}
+li{
+	text-decoration: none;
+	float: left;
+}
+li a {
+  display: block;
+  padding: 4px;
+  text-decoration: none;
+  background-color: rgb(106, 106, 106);
+  border-radius: 100px;
+}
+main {
+	padding-top: 60px;
+}
+.mnp {
+	font-size: 35px;
+	/* box-shadow: 0px 0px 29px 39px #6a6a6a; */
+	font-family: monopolyinline;
+	font-weight: 800;
+	color: white;
+	
+}
+.spb {
+	margin-top: 9.5px;
+}
+.verkaufen {
+	background-color: red;
+	color: white;
+	border-style: solid;
+	border-radius: 6px;
+	border-color: black;
+	padding: 5px;
+	text-decoration: none;
+	border-block: 0px;
+}
+.hypothek {
+	font-size: 25px;
+	margin: 72px;
+}
+.Versorgungswerk {
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+.mortgagew {
+padding-bottom: 5px;
+}
+.verkaufenh {
+        background-color: white;
+        color: black;
+        border-style: solid;
+        border-radius: 6px;
+        border-color: black;
+        padding: 3px;
+        text-decoration: none;
+}
+  details {
+  width: 382px;
+  border: 1px solid #222;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  box-shadow: 0 0 8px rgba(43,47,62,.1);
+  transition: 1s all ease;
+  background-color: white;
+  }
+.clila[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.clightblue[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.cpink[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.corange[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.cred[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.cyellow[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.cblue[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.cgreen[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.cgrey[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.cwhite[open]{
+box-shadow: 2px 2px 100px 400px rgba(0, 0, 0, 0.3);
+position: relative;
+}
+.languagepicker {
+float: left;
+}
+select {
+  font-size: 16px;
+  border: 1px solid #CCC;
+  height: 34px;
+-webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  text-align: center;
+
+}
+td#Monopoly {
+	width:90%;
+}
+

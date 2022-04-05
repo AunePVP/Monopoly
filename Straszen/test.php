@@ -1,0 +1,4 @@
+<?php
+$zufall[] = "<div style="background-color:blue; width:500px; color:white;"><p>Div 1</p></div>";$zufall[] = "<div style="background-color:green; width:500px; color:white;"><p>Div 2</p></div>";$zufall[] = "<div style="background-color:gray; width:500px; color:white;"><p>Div 3</p></div>";$zufall[] = "<div style="background-color:yellow; width:500px; color:black;"><p>Div 4</p></div>";$zufall[] = "<div style="background-color:brown; width:500px; color:white;"><p>Div 5</p></div>";$zufall[] = "<div style="background-color:black; width:500px; color:white;"><p>Div 6</p></div>";$zufall[] = "<div style="background-color:limegreen; width:500px; color:white;"><p>Div 7</p></div>";$zufall[] = "<div style="background-color:lightblue; width:500px; color:white;"><p>Div 8</p></div>"; shuffle ( $zufall );
+echo "Zufalls-Div 1: $zufall[1] <br />";echo "Zufalls-Div 2: $zufall[2] <br />";echo "Zufalls-Div 3: $zufall[3]";
+?>
