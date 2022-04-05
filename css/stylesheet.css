@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'monopolyinline';
+    src: url('https://muehlhaeusler.online/monopoly/fonts/ne-main/monopoly_inline-webfont.woff2') format('woff2'),
+         url('https://muehlhaeusler.online/monopoly/fonts/ne-main/monopoly_inline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
