@@ -2,7 +2,7 @@
 include '../config.php';
 $hname = $_GET['hname'];
 $cookie_value1 = "hypothek";
-setcookie($cookie_name, $cookie_value1, time() + (86400 * 30), "/", $domain, 1);
+setcookie($hname, $cookie_value1, time() + (86400 * 30), "/", $domain, 1);
 ?>
 <title><?php echo $hname;?></title>
 <html>
