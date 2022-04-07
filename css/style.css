@@ -25,6 +25,9 @@ padding: 22px;
 width: 15px;
     margin-right: -40px;
 }
+.Value {
+	color: white;
+}
 p {
   margin: 2px 0;
 }
