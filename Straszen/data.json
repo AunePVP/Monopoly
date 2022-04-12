@@ -1,33 +1,155 @@
 {
-    "name":"Monopoly",
-    "price":{
-        "I":"60",
-        "II":"60",
-        "III":"100",
-        "IV":"100",
-        "V":"120",
-        "VI":"140",
-        "VII":"150",
-        "VIII":"160",
-        "IX":"180",
-        "X":"180",
-        "XI":"200",
-        "XII":"220",
-        "XIII":"220",
-        "XIV":"240",
-        "XV":"260",
-        "XVI":"260",
-        "XVII":"280",
-        "XVIII":"350",
-        "XIX":"400",
-        "XX":"200",
-        "XXI":"200",
-        "XXII":"200",
-        "XXIII":"200",
-        "XXIV":"300",
-        "XXV":"300",
-        "XXVI":"320",
-        "XXVII":"150",
-        "XXVIII":"150"
+    "Monopoly": {
+        "I": {
+            "price": "60",
+            "hypothek": "30",
+            "hypothek2": "33"
+        },
+        "II": {
+            "price": "60",
+            "hypothek": "30",
+            "hypothek2": "33"
+        },
+        "III": {
+            "price": "100",
+            "hypothek": "50",
+            "hypothek2": "55"
+        },
+        "IV": {
+            "price": "100",
+            "hypothek": "50",
+            "hypothek2": "55"
+        },
+        "V": {
+            "price": "120",
+            "hypothek": "60",
+            "hypothek2": "66"
+        },
+        "VI": {
+            "price": "140",
+            "hypothek": "70",
+            "hypothek2": "77"
+        },
+        "VII": {
+            "price": "150",
+            "hypothek": "70",
+            "hypothek2": "70"
+        },
+        "VIII": {
+            "price": "160",
+            "hypothek": "80",
+            "hypothek2": "88"
+        },
+        "IX": {
+            "price": "180",
+            "hypothek": "90",
+            "hypothek2": "99"
+        },
+        "X": {
+            "price": "180",
+            "hypothek": "90",
+            "hypothek2": "99"
+        },
+        "XI": {
+            "price": "200",
+            "hypothek": "100",
+            "hypothek2": "110"
+        },
+        "XII": {
+            "price": "220",
+            "hypothek": "110",
+            "hypothek2": "121"
+        },
+        "XIII": {
+            "price": "220",
+            "hypothek": "110",
+            "hypothek2": "121"
+        },
+        "XIV": {
+            "price": "240",
+            "hypothek": "120",
+            "hypothek2": "132"
+        },
+        "XV": {
+            "price": "260",
+            "hypothek": "130",
+            "hypothek2": "143"
+        },
+        "XVI": {
+            "price": "260",
+            "hypothek": "130",
+            "hypothek2": "143"
+        },
+        "XVII": {
+            "price": "280",
+            "hypothek": "140",
+            "hypothek2": "154"
+        },
+        "XVIII": {
+            "price": "350",
+            "hypothek": "175",
+            "hypothek2": "193"
+        },
+        "XIX": {
+            "price": "400",
+            "hypothek": "200",
+            "hypothek2": "220"
+        },
+        "XX": {
+            "price": "200",
+            "hypothek": "100",
+            "hypothek2": "110"
+        },
+        "XXI": {
+            "price": "200",
+            "hypothek": "100",
+            "hypothek2": "110"
+        },
+        "XXII": {
+            "price": "200",
+            "hypothek": "100",
+            "hypothek2": "110"
+        },
+        "XXIII": {
+            "price": "200",
+            "hypothek": "100",
+            "hypothek2": "110"
+        },
+        "XXIV": {
+            "price": "300",
+            "hypothek": "150",
+            "hypothek2": "165"
+        },
+        "XXV": {
+            "price": "300",
+            "hypothek": "150",
+            "hypothek2": "165"
+        },
+        "XXVI": {
+            "price": "320",
+            "hypothek": "160",
+            "hypothek2": "176"
+        },
+        "XXVII": {
+            "price": "150",
+            "hypothek": "75",
+            "hypothek2": ""
+        },
+        "XXVIII": {
+            "price": "150",
+            "hypothek": "75",
+            "hypothek2": ""
+        },
+        "XXIX": {
+            "price": "",
+            "hypothek": "",
+            "hypothek2": ""
+        },
+        "XXX": {
+            "price": "",
+            "hypothek": "",
+            "hypothek2": ""
+        }
     }
- }
+
+}
