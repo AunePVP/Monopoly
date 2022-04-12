@@ -61,6 +61,8 @@ setcookie("XXVIIH", "hypothek", time() - (86400 * 30), "/", $domain, 1);
 setcookie("XXVIIIH", "hypothek", time() - (86400 * 30), "/", $domain, 1);
 setcookie("XXXH", "hypothek", time() - (86400 * 30), "/", $domain, 1);
 setcookie("Value", "1320", time() - (86400 * 30), "/", $domain, 1);
+
+setcookie("Value", "1500", time() + (86400 * 30), "/", $domain, 1);
 ?>
 <html>
 <meta http-equiv="refresh" content="0; URL=../index.php">
