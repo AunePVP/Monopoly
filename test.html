@@ -1,4 +1,10 @@
-CREATE TABLE `Monopoly_1` (
-	`Server Name` TEXT(15) DEFAULT 'Leo',
-	`Verification` VARCHAR(12) DEFAULT '3rE6YSkZAHq4'
+CREATE TABLE monopolyinf
+(
+GameID int,
+Name varchar(255),
+SecurityKey varchar(255)
 );
+
+
+INSERT INTO monopolyinf (Name, SecurityKey)
+VALUES ('Leo', '3rE6YSkZAHq4');
